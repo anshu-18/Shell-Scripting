@@ -230,4 +230,20 @@
 				
 	- PROJECTS
 		○ Read about FILE SYSTEM in linux
-POSTFIX is used to send mail from linux to gmail. And it uses SMTP protocol![image](https://github.com/user-attachments/assets/45ba0ebd-49bc-4d3e-a1c0-49d25ad92099)
+POSTFIX is used to send mail from linux to gmail. And it uses SMTP protocol
+![image](https://github.com/user-attachments/assets/45ba0ebd-49bc-4d3e-a1c0-49d25ad92099)
+
+FILE SYSTEM in Linux:
+	- Cmd to chk which file system is present in ur machine: df -TH
+	- Types of file system:
+		1. Xfs
+		2. Ext4
+		3. Ext3
+	- Inode: inode in linux is a data structure that stores metadata about a file or dir.  ls -li cmd will give the inode no. of each file/dir. The filesystem uses the inode number to locate the inode, which then contains pointers to the data blocks where the actual file data is stored.
+	- FILE SYSTEM DIR:
+		1. / (root) dir
+		2. /bin dir contains user executables binary file such as ls,cp,cd,etc
+		3. /etc dir contains system configuration files such as network, dns-server, host, services,user,etc.
+		4. /home dir 
+/var dir contains all the logs,messages of system![image](https://github.com/user-attachments/assets/6f21d241-6dd1-422c-aada-e18ba4fbf1a0)
+
